@@ -1,0 +1,112 @@
+body {
+    height: 100%;
+    background: #f4f4f4; }
+.my_img{
+    width: 134px;
+    height: 24px;}
+/*左浮动*/
+.float{float: left}
+/*右浮动*/
+.rfloat{float: right;}
+/*标题居中*/
+.my_title{text-align: center;}
+.my_c_title{margin-left: 10rem;margin-top: 5rem;}
+/*通行证位置*/
+.my_t{margin-left: 1rem;margin-top:-5px ;font-size: 23px;}
+/*去点*/
+.my_li{list-style: none}
+a{text-decoration: none;color:#ffa055;}
+.my_font{font-weight: normal;font-size:14px;color:#999999;}
+.fenge{margin:0 1rem;}
+.mt{margin-top: 0;}
+/*中间宽度*/
+.zhong{
+    width: 900px;
+    height: 64px;}
+/*h2大小*/
+.my_h{
+    width: 900px;
+    height: 76px;
+    background: #ffe300;
+    margin-left: 10rem;
+
+    line-height: 76px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+.my_h2{margin-top: 0; margin-bottom: 0;}
+/*登录背景*/
+.d_bg{
+    width: 900px;
+    height: 352px;background: #fff;
+    padding: 2rem 0;
+}
+/*input样式*/
+.my_input{
+    outline: 0;
+    width: 264px;
+    height: 42px;
+    background: transparent;
+    border: 1px solid transparent;
+    margin-left: 1rem;
+    margin-top : 1px;
+}
+/*+86样式*/
+.my_86{
+    box-sizing: border-box;
+    width: 70px;
+    height: 42px;
+    color:#999999;
+}
+/*phone*/
+.phone{
+    margin:0 auto;
+    width: 336px;
+    height: 44px;
+    text-align: center;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+/*中间清除边距溢出*/
+.position::before{
+    content: "";
+    display: table;
+}
+/*按钮颜色*/
+.q_btn{background: #0aa1ed}
+.wechat_btn{background: #04be02}
+.weibo_btn{background: #ffa055}
+.btn{
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    padding:0.5rem;
+    margin-left: 22px;
+}
+.my_btn{
+    width: 336px;
+    height: 42px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    color:#999999;
+}
+.d_d{margin-left: 18rem ;margin-top: 5rem;}
+/*第三方登录*/
+.mt{margin-top: 16px}
+p{
+    height: 18px;
+    margin: 0;}
+.my_text{
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-bottom: 8px;
+}
+/*登录*/
+.my_d{
+    width: 336px;
+    height: 271px;
+    margin:0 auto;
+}

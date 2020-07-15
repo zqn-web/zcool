@@ -1,0 +1,49 @@
+#under{
+    width: 1130px;
+    margin: 0 auto;
+}
+#under-imgs{
+    list-style:none;
+}
+#under-imgs>li{  
+    margin-top: 1rem;
+    width: 210px;
+    float: left;
+}
+#under-imgs img{
+   width: 210px;
+   height: 168px;
+   border-radius: 5px;
+}
+#under-imgs>li+li{
+    margin-left: 20px;
+}
+/* 下方菜单 */
+#menu{
+    width: 1130px;
+    text-align: center;
+    list-style: none;
+}
+#menu>li{
+    box-sizing: border-box;
+    margin-top: 2rem;
+    padding:0 30px;
+    float: left;
+    width: 124px;
+    height: 56px;
+} 
+#menu>li>a{
+    text-align: center;
+    box-sizing: border-box;
+    color:#000;
+    text-decoration: none;
+    width: 64px;
+    height: 56px;
+    margin-top: 2rem;
+    border-bottom: 2px solid #000;
+}
+.li-1{
+    margin-left: 32rem;
+}
+
+

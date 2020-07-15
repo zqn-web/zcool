@@ -1,0 +1,106 @@
+/*字体*/
+.my_text{
+    color:#fff ;
+    font-weight: normal;
+}
+/*左浮动*/
+.float{
+    float:left;
+}
+div>a{
+   margin-top: 1rem;
+}
+.img_m{
+    margin-top:8px;
+    margin-left: 1rem;
+}
+div>h1{
+    margin-top:2rem;
+}
+/*中间标题*/
+.my_m_text{text-align:center;}
+.my_p{font-size: 20px;}
+div>p{ margin-top: 1rem;}
+/*短信登录字色*/
+.d_text{
+    color: #999999;}
+.d_div{
+     width:400px;height:500px;
+     margin:0 auto;
+     margin-top:2rem;
+
+ }
+ /*li去点*/
+.q_li{
+   list-style: none;
+}
+/*li样式*/
+.li{
+    margin-top: 3rem;
+    border-bottom: 2px solid #000;
+}
+/*按钮颜色*/
+.q_btn{background: #0aa1ed}
+.wechat_btn{background: #04be02}
+.weibo_btn{background: #ffa055}
+.btn{
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    padding:0.5rem;
+    margin-left: 30px;
+}
+/*最下面p字号*/
+.b_p{font-size: 13px;}
+/*中间清除边距溢出*/
+.position::before{
+  content: "";
+    display: table;
+}
+/*密码登录样式*/
+.m_d{padding-bottom: 1rem; }
+/*短信登录样式*/
+.d_d{margin-top: 3rem;margin-left: 2rem;}
+/*密码短信div样式*/
+.my_d_div{
+    margin: 0 auto;
+    width: 336px;
+    border-bottom: 1px solid #dddddd;}
+/*解决高度坍塌*/
+.ta::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+/*登录大div的border*/
+.d_b{border-radius: 5px}
+/*二维码*/
+.erweima{float: right;margin-top: 0.5rem;margin-right:0.5rem;}
+/*input样式*/
+.my_input{
+    box-sizing: border-box;
+    width: 336px;
+    height: 42px;
+    outline: 0;
+    border-radius: 3px;
+    margin-top: 2rem;
+    border: 1px solid #dddddd;
+    padding-left:15px;
+}
+.my_btn{
+    width: 336px;
+    height: 42px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    color:#999999;
+}
+.chex_div{margin-left:2rem;text-align: left;font-size: 14px}
+.chex_img{margin-right: 5px;  }
+/*a去线*/
+.my_a{text-decoration: none;font-size: 13px;}
+
+.a_div{text-align: right;}
+#a1{margin-left: 10rem;}
+.mb{margin-bottom:2rem;}
+.mb2{margin-bottom:1rem;}
