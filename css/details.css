@@ -1,0 +1,100 @@
+/* 上方 */
+#top{
+    width: 100%;
+    height: 141px;
+    text-align: center;
+    border-bottom: 1px solid #e3e2e2;
+}
+#top img{
+    width: 1130px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 14px;
+}
+.work-details-wrap{
+    width: 100%;
+    height: 131px;
+}
+.work-details-box-wrap{
+    width: 1130px;
+    height: 130px;
+}
+.left-details-head{
+    width: 814px;
+    height: 130px;
+    margin-left: 4rem;
+}
+.details-content-box{
+    width: 813px;
+    height: 130px;
+}
+/* 上 左边 */
+.details-content-box h2{
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    display: inline-block;
+}
+.details-content-box img{
+    width: 20px;
+    height: 18px;
+    margin-left: 8px;
+}
+.work-head-box{
+    width: 783px;
+    height: 31px;
+    color: #ababab;
+    font-size: 14px;
+    display: flex;
+    margin-bottom:2rem;
+}
+.details-content-box p{
+    color: #ababab;
+    font-size: 14px;
+    margin-top: -3px;
+    margin-bottom: 0;
+}
+.work-head-box-ul,.work-head-box-ul-right{
+    list-style:none;
+    display: flex;
+    padding-left: 0;
+}
+.work-head-box-ul a{
+    text-decoration: none;
+    color: #ababab;
+ 
+}
+.work-head-box-ul>li+li{
+    margin-left: 2rem;
+}
+/* 上 右边 */
+.work-head-box-span-right{
+    margin-top: 15px;
+    margin-left: 16rem;
+}
+.work-head-box-span-right a{
+    text-decoration: none;
+    color: #ababab;
+}
+.right-1,
+.right-2,
+.right-3::before{
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;  
+    padding-left: 24px;
+    line-height: 16px;
+    margin-left: 7px;
+}
+.right-1{
+    background: url(../img/details/card-liulan.svg) 0 2px no-repeat;
+}
+.right-2{
+    background: url(../img/details/card-pinglun.svg) 0 2px no-repeat;
+}
+.right-3{
+    background: url(../img/details/card-zan.svg) 0 2px no-repeat;
+}
+.details-content-box{
+    border-right: 1px solid #e3e2e2;
+}
