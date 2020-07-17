@@ -18,6 +18,7 @@
 .work-details-box-wrap{
     width: 1130px;
     height: 130px;
+    display: flex;
 }
 .left-details-head{
     width: 814px;
@@ -27,6 +28,8 @@
 .details-content-box{
     width: 813px;
     height: 130px;
+    padding-top: 1rem;
+    box-sizing: border-box;
 }
 /* 上 左边 */
 .details-content-box h2{
@@ -51,13 +54,14 @@
 .details-content-box p{
     color: #ababab;
     font-size: 14px;
-    margin-top: -3px;
+    margin-top: 10px;
     margin-bottom: 0;
 }
 .work-head-box-ul,.work-head-box-ul-right{
     list-style:none;
     display: flex;
     padding-left: 0;
+    padding-top: 1rem;
 }
 .work-head-box-ul a{
     text-decoration: none;
@@ -98,3 +102,116 @@
 .details-content-box{
     border-right: 1px solid #e3e2e2;
 }
+/* 右侧author  */
+.right-details-author{
+    box-sizing: border-box;
+    width: 316px;
+    height: 130px;
+    padding: 2rem;
+    display: flex;
+}
+.right-details-author-left img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+/* 头像右下角小图标 */
+.right-details-author-rb{
+    width: 24px;
+    height: 24px;
+    margin-left: 53px;
+    margin-top: -28px;
+}
+/* author */
+.author-info{
+    width: 186px;
+    height: 95px;
+    margin-left: 2rem;
+    margin-top: -20px;
+    cursor:pointer;
+}
+.author-info a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+.author-info img{
+    width: 16px;
+    height: 16px;
+}
+.position-info-text{
+    color: #bbb;
+    font-size: 12px;
+    margin-top: 12px;
+}
+/* 按钮 */
+.btns{
+    width: 186px;
+    height: 36px;
+    margin-top: 15px;
+   
+}
+.btn-style{
+    width: 88px;
+    height: 36px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    background: #fff;
+}
+.btns>.active{
+    background: #ffe300;
+}
+/* 中间详情页 */
+.work-details{
+    width: 100%;
+    height: 38539px;
+    background: #000;
+}
+.work-details-center{
+    text-align: center;
+}
+/* 字体样式 */
+.txt-con{
+    width: 800px;
+    height: 768px;
+    margin: 0 auto;
+    color:#777;
+    font-size: 16px;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+.center-text{
+    width: 1130px;
+    height: 768px;
+    margin: 0 auto;
+}
+/* 中间img */
+.work-show-box{
+    width: 1130px;
+    height: 37951px;
+    margin: 0 auto;
+}
+.work-show-box img{
+    width: 1130px;
+}
+/* 中间推荐部分 */
+.detail-recommend-box{
+    width: 100px;
+    text-align: center; 
+    margin: 0 auto;
+    margin-top: 1rem;
+   
+}
+.detail-recommend-div{
+    width: 118px;
+    height: 72px;
+    line-height: 72px;
+    background: #ffe300;
+    border-radius: 50px;
+}
+.detail-recommend-div span{
+    line-height: 72px;
+}
+    
