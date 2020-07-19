@@ -198,11 +198,10 @@
 }
 /* 中间推荐部分 */
 .detail-recommend-box{
-    width: 100px;
+    width: 1130px;
     text-align: center; 
     margin: 0 auto;
-    margin-top: 1rem;
-   
+    margin-top: 3rem;
 }
 .detail-recommend-div{
     width: 118px;
@@ -211,7 +210,14 @@
     background: #ffe300;
     border-radius: 50px;
 }
+.detail-recommend-div img{
+    vertical-align: middle;
+}
 .detail-recommend-div span{
     line-height: 72px;
+}
+/*  设计师推荐*/
+.designers{
+    display: flex;
 }
     
