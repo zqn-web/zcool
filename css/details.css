@@ -197,27 +197,97 @@
     width: 1130px;
 }
 /* 中间推荐部分 */
-.detail-recommend-box{
-    width: 1130px;
-    text-align: center; 
-    margin: 0 auto;
-    margin-top: 3rem;
+.details-recommends-box{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3rem;
 }
-.detail-recommend-div{
+/* 上 */
+.recomment-top{
+    margin: 0 auto;
     width: 118px;
     height: 72px;
     line-height: 72px;
-    background: #ffe300;
+    background:  #ffe300;
     border-radius: 50px;
+    margin-top: 2rem;
+    text-align: center;
 }
-.detail-recommend-div img{
+.recomment-top img{
     vertical-align: middle;
 }
-.detail-recommend-div span{
-    line-height: 72px;
+/* 中 */
+.recomment-middle{
+    margin-top: 2rem;
 }
-/*  设计师推荐*/
-.designers{
+/* 下 */
+.recomment-bottom img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/* 下方推荐 */
+.bottom-bg{
+    background: #e3e2e2;
+    width: 100%;
+    height: 2000px; 
+}
+.recommends{
+    width: 1130px;
+    height: 200px;
+    margin: 0 auto;
+}
+.recommends-ul{
     display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 2rem;
 }
-    
+.recommends-ul>li{
+    width: 205px;
+    height: 200px;
+}
+.recommends-ul img{
+    width: 205px;
+    height: 154px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.recommends-ul a{
+    text-decoration: none;
+    color:#000;
+    font-size: 14px;
+}
+.img-div{
+    width: 205px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.img-div:hover{
+    color:#d36f16;
+}
+/* 底部 */
+.details-bottom{
+    width: 1130px;
+    height: 2198px;
+}
+/* 下左 */
+.details-bottom-left{
+    width: 260px;
+    height: 686px;
+   margin-left: 70px;
+  
+}
+.details-bottom-left-top{
+    width: 260px;
+    height: 203px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
