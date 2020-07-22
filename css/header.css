@@ -48,7 +48,7 @@ ul>li{
 
 /* 除了第一个子元素外，每个子元素添加的样式 */
 div.nav_bg>ul>li:not(:first-child){
-    margin-left: 52px;
+    margin-left: 45px;
 }
 /* 登录、注册位置 */
 .d_position{
