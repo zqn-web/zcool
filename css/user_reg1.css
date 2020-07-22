@@ -1,5 +1,5 @@
 body {
-    height: 100%;
+    height:750px;
     background: #f4f4f4; }
 .my_img{
     width: 134px;
@@ -29,7 +29,6 @@ a{text-decoration: none;color:#ffa055;}
     height: 76px;
     background: #ffe300;
     margin-left: 10rem;
-
     line-height: 76px;
     border-top-left-radius:4px;
     border-top-right-radius:4px;
@@ -50,6 +49,12 @@ a{text-decoration: none;color:#ffa055;}
     border: 1px solid transparent;
     margin-left: 1rem;
     margin-top : 1px;
+    box-sizing: border-box;
+}
+.my_input:focus{
+    background: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
 }
 /*+86样式*/
 .my_86{
@@ -57,6 +62,10 @@ a{text-decoration: none;color:#ffa055;}
     width: 70px;
     height: 42px;
     color:#999999;
+    line-height: 42px;
+}
+.my_86:hover{
+    cursor: pointer;
 }
 /*phone*/
 .phone{
@@ -67,6 +76,7 @@ a{text-decoration: none;color:#ffa055;}
     background: #f4f4f4;
     border: 1px solid #ddd;
     border-radius: 3px;
+    display: flex;
 }
 /*中间清除边距溢出*/
 .position::before{
@@ -86,13 +96,20 @@ a{text-decoration: none;color:#ffa055;}
 .my_btn{
     width: 336px;
     height: 42px;
-    margin-top: 2rem;
     margin-bottom: 1rem;
     border-radius: 3px;
     border: 1px solid #dddddd;
     color:#999999;
 }
-.d_d{margin-left: 18rem ;margin-top: 5rem;}
+.d_d{
+    width: 336px;
+    height: 37px;
+    margin-left: 17.5rem ;
+    margin-top: -2rem;
+    color:#666;
+    font-size: 14px;
+   
+}
 /*第三方登录*/
 .mt{margin-top: 16px}
 p{
@@ -109,4 +126,29 @@ p{
     width: 336px;
     height: 271px;
     margin:0 auto;
+}
+/* 用户协议 */
+.label-checkbox{
+    width: 260px;
+    height: 20px;
+    font-size: 14px;
+    color:#666;
+    margin-left: 17rem;
+}
+/* .footer::before{
+    content: "";
+    display: table;
+    clear: both;
+} */
+.footer{
+    width: 100%;
+    height: 44px;
+    margin-top: 31rem;
+}
+.mt{
+    margin-top: 1.5rem;
+}
+/* 使用社交账号登录 */
+.denglu{
+    margin-top: -1rem;
 }

@@ -9,7 +9,6 @@
     width: 1130px;
     height: 100px;
     border-radius: 5px;
-    margin-top: 14px;
 }
 .work-details-wrap{
     width: 100%;
@@ -232,7 +231,7 @@
 .bottom-bg{
     background: #f7f7f7;
     width: 100%;
-    height: 2000px; 
+    height: 1600px;
 }
 .recommends{
     width: 1130px;
@@ -248,6 +247,10 @@
 .recommends-ul>li{
     width: 205px;
     height: 200px;
+}
+.recommends-ul img:hover{
+    width: 207px;
+    height: 156px;
 }
 .recommends-ul img{
     width: 205px;
@@ -275,7 +278,7 @@
 /* 底部 */
 .details-bottom{
     width: 1130px;
-    height: 2198px;
+    height: 300px;
     display: flex;
 }
 /* 下左 */
@@ -390,7 +393,7 @@
 /* 右边部分 */
 .details-bottom-right{
     width: 850px;
-    height: 2760px;
+    height:700px;
     margin: 3rem 0 0 1.5rem;
     border-radius: 5px;
 }
@@ -425,6 +428,10 @@
     height: 138px;
     border-radius: 5px;
 }
+.collect-bottom-ul img:hover{
+    width: 189px;
+    height: 140px;
+}
 .collect-bottom-ul-div{
     width: 187px;
     height: 40px;
@@ -434,18 +441,148 @@
 }
 .login-pinglun{
     width: 850px;
-    height: 173px;
+    height: 137px;
     margin-top:10px;
     background:#fff;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1rem;
 }
 .denglu{
-    width: 790px;
+    width: 760px;
     height: 60px;
-    margin: 0 auto;
-    text-align: center;
-    background:  #f7f7f7;
-    border: 1px solid #ddd;
+    background: #f4f4f4;
+    border: 1px solid  #e3e2e2;
+    border-radius: 5px;
+    position: absolute;
+    top: 2rem;
+    left: 2.5rem;
     line-height: 60px;
+    text-align: center;
+}
+.denglu-btn-style{
+    width: 80px;
+    height: 36px;
+    background: #ffe300;
+    margin-right: 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.denglu-btn-style:hover{
+    background:  #ffcc5f;
+    cursor: pointer;
+}
+.pinglun-btn-style{
+    width: 100px;
+    height: 36px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+/* 下方评论 */
+.buttom-pinglun{
+    width: 850px;
+    background: #fff;
+    margin-top: 2px;
+    position: absolute;
+}
+.commenttxt{
+    font-size: 14px;
+    margin:1.5rem;
+    margin-left: 2rem;
+    position: relative;
+}
+.txt{
+    color: #bbb;
+}
+/* 评论区域 */
+.all-comment{
+    width: 850px;
+}
+.comment-info{
+    margin-top: 1rem;
+    width: 790px;
+    height: 146px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid #f7f7f7;
+}
+.comment-info img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.comment-list a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#000;
+    font-weight: 600;
+}
+.comment-list p{
+    font-size: 15px;
+    color:#666;
+    margin-top: 10px;
+}
+.comment-list-time{
+    color: #bbb;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+/* 点赞评论小图标 */
+.comment-pingluntubiao::before{
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;  
+    background-size: 16px auto;
+    padding-left: 23px;
+    line-height: 16px;
+}
+.comment-dianzantubiao::before{
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;  
+    background-size: 16px auto;
+    padding-left: 20px;
+    line-height: 16px;
+}
+.comment-pingluntubiao{
+    background: url(../img/details/pinglunqian.svg) 0 2px no-repeat;
+}
+.comment-dianzantubiao{
+    background: url(../img/details/pinglundianzanqian.svg) 0 0px no-repeat;
+    margin-left: 6px;
+}
+.tubiao{
+   margin-left: 41rem;;
+}
+.comment-list img{
+    width: 22px;
+    height: 22px;
+}
+/* hover图标 */
+.comment-pingluntubiao:hover{
+    background: url(../img/details/pinglunhover.svg) 0 2px no-repeat;
+}
+.comment-dianzantubiao:hover{
+    background: url(../img/details/pinglundianzanhover.svg) 0 0 no-repeat;
+}
+.more{
+    width: 850px;
+    height: 75px;
+    background: #fff;
+    text-align: center;
+    line-height: 75px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.more a{
+    color: #d36f16;
+    font-size: 14px;
+    text-decoration: none;
+}
+.collect-bottom-ul-div:hover{
+    color: #d36f16;
+    cursor: pointer;
 }

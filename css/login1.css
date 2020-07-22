@@ -104,3 +104,7 @@ div>p{ margin-top: 1rem;}
 #a1{margin-left: 10rem;}
 .mb{margin-bottom:2rem;}
 .mb2{margin-bottom:1rem;}
+/* ul-hover */
+.ul-hover>li:hover{
+    cursor: pointer;
+}
