@@ -1,4 +1,8 @@
-/*字体*/
+ *{margin: 0;padding: 0}
+
+ #dl{background: #fff;}
+ #p2{margin: 1rem;}
+ #p3{margin-bottom: 5rem;}/*字体*/
 .my_text{
     color:#fff ;
     font-weight: normal;

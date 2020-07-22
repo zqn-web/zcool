@@ -1,68 +1,65 @@
-<!doctype html>
-<html>
-  <head>
-	  <title></title>
-		<meta charset="uft-8">
-	  <link rel="stylesheet" href="css/login1.css"/>
-	  <style>
-		  *{margin: 0;padding: 0}
-		  #bg{background: url("img/login/login-ground.jpg") no-repeat scroll ;
-		      background-size:cover;
-		  }
-		  #dl{background: #fff;}
-		  #p2{margin: 1rem;}
-		  #p3{margin-bottom: 5rem;}
-	  </style>
-	</head>
-  <body id="bg">
-     <div >
-		 <!-- 左上标题-->
-		 <div>
-		 	<a href="index.html" class="float img_m"><img  src="img/login/zcool_logo.svg" alt=""/></a>
-			 <h1 class="my_text ">| 通行证</h1>
-		 </div>
-		 <!-- 中间标题-->
-		 <div class="my_m_text">
-			 <a  href=""><img src="img/login/zcool_logo.svg" alt=""/></a>
-			 <p class="my_text my_p">登录站酷网，与1000万+ 名设计创意人一起交流设计、分享快乐吧！</p>
-		 </div>
-		 <!-- 登录页面-->
-		 <div class="my_m_text d_div position d_b" id="dl">
-			 <img class="erweima" src="img/login/wx_l.svg" alt=""/>
-			 <!-- 密码登录-->
-			 <form method="post" action="/user/login">
-				 <div class="my_d_div ta">
-				 <ul class="q_li float ul-hover">
-					 <li class="li float m_d">密码登录</li>
-					 <li class="d_text float d_d">短信登录</li>
-				 </ul>
-				 </div>
-				 <input class="my_input" type="text" placeholder="手机号/邮箱"/><br/>
-				 <input class="my_input" type="text" placeholder="密码"/><br/>
-				 <button class="my_btn">登录</button>
-			 </form>
-			 <div class="chex_div float ">
-				 <img class="chex_img" src="img/login/checkboxed.svg" alt=""/>下次自动登录
-			 </div>
-			 <div class="float mb">
-				 <a class="my_a d_text " id="a1" href="">忘记密码 |</a>
-				 <a class="my_a d_text" href="">注册</a>
-			 </div>
-			 <!-- 第三方账号登录-->
-			 <div>
-				 <p class="d_text my_m_text mb2">第三方账号登录</p>
-				 <div>
-					 <button class="wechat_btn btn"><a href=""><img src="img/login/wechat.png" alt=""/></a></button>
-					 <button class="weibo_btn btn"><a href=""><img src="img/login/weibo.png" alt=""/></a></button>
-					 <button class="q_btn btn"><a href=""><img src="img/login/qq.png" alt=""/></a></button>
-				 </div>
-			 </div>
-		 </div>
-		 <!-- 最下面文字-->
-		 <p  class="my_m_text my_text">图片来自站酷海洛</p>
-		 <p id="p2" class="my_m_text my_text b_p">京ICP备11017824号-4 / 京ICP证130164号 北京市公安局朝阳分局备案编号:110105000501</p>
-		  <p id="p3" class="my_m_text my_text b_p">Copyright © 2006-2018 ZCOOL <a class="my_a my_text" href="">中文</a> <a class="my_a my_text" href="">English</a></p>
-	 </div>
-  </body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/login1.css">
+	<style>
+		#bg{
+			background: url("img/login/login-ground.jpg") no-repeat scroll ;
+			background-size:cover;
+	   }   
+	</style>
+</head>
+<body id="bg">
+<div >
+	<!-- 左上标题-->
+	<div>
+		<a href="index.html" class="float img_m"><img  src="img/login/zcool_logo.svg" alt=""/></a>
+		<h1 class="my_text ">| 通行证</h1>
+	</div>
+	<!-- 中间标题-->
+	<div class="my_m_text">
+		<a  href=""><img src="img/login/zcool_logo.svg" alt=""/></a>
+		<p class="my_text my_p">登录站酷网，与1000万+ 名设计创意人一起交流设计、分享快乐吧！</p>
+	</div>
+	<!-- 登录页面-->
+	<div class="my_m_text d_div position d_b" id="dl">
+		<img class="erweima" src="img/login/wx_l.svg" alt=""/>
+		<!-- 密码登录-->
+		<form method="post" action="/user/login">
+			<div class="my_d_div ta">
+			<ul class="q_li float ul-hover">
+				<li class="li float m_d">密码登录</li>
+				<li class="d_text float d_d">短信登录</li>
+			</ul>
+			</div>
+			<input class="my_input" type="text" placeholder="手机号/邮箱"/><br/>
+			<input class="my_input" type="text" placeholder="密码"/><br/>
+			<button class="my_btn">登录</button>
+		</form>
+		<div class="chex_div float ">
+			<img class="chex_img" src="img/login/checkboxed.svg" alt=""/>下次自动登录
+		</div>
+		<div class="float mb">
+			<a class="my_a d_text " id="a1" href="">忘记密码 |</a>
+			<a class="my_a d_text" href="">注册</a>
+		</div>
+		<!-- 第三方账号登录-->
+		<div>
+			<p class="d_text my_m_text mb2">第三方账号登录</p>
+			<div>
+				<button class="wechat_btn btn"><a href=""><img src="img/login/wechat.png" alt=""/></a></button>
+				<button class="weibo_btn btn"><a href=""><img src="img/login/weibo.png" alt=""/></a></button>
+				<button class="q_btn btn"><a href=""><img src="img/login/qq.png" alt=""/></a></button>
+			</div>
+		</div>
+	</div>
+	<!-- 最下面文字-->
+	<p  class="my_m_text my_text">图片来自站酷海洛</p>
+	<p id="p2" class="my_m_text my_text b_p">京ICP备11017824号-4 / 京ICP证130164号 北京市公安局朝阳分局备案编号:110105000501</p>
+		<p id="p3" class="my_m_text my_text b_p">Copyright © 2006-2018 ZCOOL <a class="my_a my_text" href="">中文</a> <a class="my_a my_text" href="">English</a></p>
+</div>
+</body>
 </html>
