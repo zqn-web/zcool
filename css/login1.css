@@ -22,7 +22,7 @@ div>h1{
     margin-top:2rem;
 }
 /*中间标题*/
-.my_m_text{text-align:center;}
+.my_m_text{margin: 0 auto; text-align:center;}
 .my_p{font-size: 20px;}
 div>p{ margin-top: 1rem;}
 /*短信登录字色*/

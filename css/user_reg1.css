@@ -22,7 +22,9 @@ a{text-decoration: none;color:#ffa055;}
 /*中间宽度*/
 .zhong{
     width: 900px;
-    height: 64px;}
+    height: 64px;
+    margin: 0 auto;
+}
 /*h2大小*/
 .my_h{
     width: 900px;
@@ -151,4 +153,8 @@ p{
 /* 使用社交账号登录 */
 .denglu{
     margin-top: -1rem;
+}
+/* 居中 */
+.juzhong{
+    margin: 0 auto;
 }
