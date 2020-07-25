@@ -1,13 +1,46 @@
 *{margin: 0;padding: 0;}
 /* 鼠标放ul>li 上，显示小手 */
-ul>li{
+.nav_bg ul>li{
     cursor:pointer;
+    width: 76px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    list-style: none;
+    font-size: 15px;
 }
 /* nav背景色 */
 .nav_bg{
     background: #ffe300;
     width: 100%;
     height: 56px;
+    margin-bottom: 1rem;
+}
+/* nav背景色上方div */
+.nav{
+    width: 1163px;
+    height: 56px;
+    display: flex;
+    margin-right: 0;
+}
+.nav-ul{
+    display: flex;
+    margin-left: 8rem;
+}
+/* nav-right */
+.nav-right{
+    width: 117px;
+    height: 56px;
+    margin: -3.5rem 0 0 2.5rem;
+}
+.denglu1{
+    display: flex;
+}
+.user-right-load{
+    width: 60px;
+    height: 56px;
+    margin-right: 0;
+    box-sizing: border-box;
 }
 /* nav左边logo大小 位置 */
 .logo{
@@ -16,55 +49,35 @@ ul>li{
     padding-top: 17px;
     margin-left: 26px;
 }
-/*中间清除边距溢出*/
-.position::after{
-    content: "";
-    display: table;
-}
-/* li去掉点 */
-.my_li{list-style: none;}
-/* 左浮动 */
-.float{
-    float:left;
-}
-/* nav中间部分ul位置 */
-.ul_position{
-    margin-left: 10rem;
-    margin-top: 19px;
-}
 /* 导航栏img大小 */
-.my_img{
+.nav-ul img{
     width: 20px;
     height: 20px;
-}
-/* nav字体大小 */
-.my_text{
-    font-size: 14px;
+    vertical-align: middle;
 }
 /*  "首页"字体*/
 .my-text-wight{
     font-weight: 600;
 } 
-
+.search{
+    width: 60px;
+    height: 56px;
+    padding-left: 10px;
+}
+.search img{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+}
+.user-right img{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    vertical-align: middle;
+}
 /* 除了第一个子元素外，每个子元素添加的样式 */
-div.nav_bg>ul>li:not(:first-child){
-    margin-left: 45px;
-}
-/* 登录、注册位置 */
-.d_position{
-  margin-top: 17px;
-  margin-left: 25px;
-}
-.size{
-    width: 117px;
-    height: 60px;
-}
-.ml{
-    margin-left: 13px;
-}
-.ml a{
-    text-decoration: none;
-    color: #000;
+.nav-ul li+li{
+    margin-left: 10px;
 }
 /* nav中小红点 */
 .nav_dot_sup{
@@ -79,12 +92,10 @@ div.nav_bg>ul>li:not(:first-child){
 }
 /* nav-ul hover */
 .nav-ul>li:hover{
-    width: 76px;
-    height: 56px;
     background: #000;
-    box-sizing: border-box;
-    line-height: 56px;
     color: #ffe300;
-    text-align: center;
-    display: inline-block;
+}
+.denglu1 a{
+    text-decoration: none;
+    color: #000;
 }
