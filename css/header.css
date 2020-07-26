@@ -18,7 +18,7 @@
 }
 /* nav背景色上方div */
 .nav{
-    width: 1163px;
+    width: 100%;
     height: 56px;
     display: flex;
     margin-right: 0;
@@ -26,6 +26,20 @@
 .nav-ul{
     display: flex;
     margin: 0 auto;
+}
+/* search */
+.search{
+    width: 60px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    float: left;
+    position: relative;
+    margin-left: -7rem;
+}
+.search img{
+    width: 20px;
+    height: 20px;
 }
 /* nav-right */
 .nav-right{

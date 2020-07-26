@@ -22,9 +22,13 @@ div>h1{
     margin-top:2rem;
 }
 /*中间标题*/
-.my_m_text{margin: 0 auto; text-align:center;}
+.my_m_text{
+    margin: 0 auto; 
+    text-align:center;
+}
 .my_m_text img{
     text-align: center;
+    margin: 0 auto;
 }
 .my_p{font-size: 20px;}
 div>p{ margin-top: 1rem;}
