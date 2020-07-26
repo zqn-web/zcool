@@ -25,7 +25,7 @@
 }
 .nav-ul{
     display: flex;
-    margin-left: 8rem;
+    margin: 0 auto;
 }
 /* nav-right */
 .nav-right{
@@ -59,16 +59,6 @@
 .my-text-wight{
     font-weight: 600;
 } 
-.search{
-    width: 60px;
-    height: 56px;
-    padding-left: 10px;
-}
-.search img{
-    width: 20px;
-    height: 20px;
-    margin-top: 1rem;
-}
 .user-right img{
     width: 20px;
     height: 20px;
@@ -98,4 +88,8 @@
 .denglu1 a{
     text-decoration: none;
     color: #000;
+}
+/* nav 最右边 居右 */
+.juyou{
+    justify-content: end;
 }

@@ -1,0 +1,296 @@
+/* 轮播图 */
+#main{
+  width:1130px;
+  margin:0 auto;      
+}
+#banner{
+  width:1130px;
+  overflow:hidden;
+  position:relative;
+}
+#ul-imgs{
+  list-style:none;
+  
+}
+#ul-imgs.transition{
+  transition:all .5s linear;
+}
+#ul-imgs>li{
+  width:1130px;
+  float:left;
+}
+#ul-imgs img{
+  width:1130px;
+  border-radius: 5px;
+}
+#ul-idxs{
+  width:1000px;
+  margin:0 auto;
+  list-style:none;
+  position:absolute;
+  bottom:25px;
+  left:50%;
+  margin-left:-50px;
+}
+#ul-idxs>li{
+  float:left;
+  width:10px; height:10px;
+  background-color:#fff;
+  border-radius:5px;
+  margin:0 5px;
+  cursor:pointer;
+}
+#ul-idxs>li.active{
+  background-color:blue;
+}
+#btn-left,#btn-right{
+  width:60px;
+  height:18rem;
+  position:absolute;
+  top:0;
+  background-repeat:no-repeat;
+  background-position:center;
+  cursor:pointer;
+}
+#btn-left{
+  left:20px;
+  background-image: url(../img/index/left_ar.png);
+  background-size: 25%;
+}
+#btn-right{
+  right:20px;
+  background-image:url(../img/index/right_ar.png);
+  background-size: 25%;
+}
+#btn-left:hover,#btn-right:hover{
+  background-size:20px 40px
+}
+/* 轮播图下方广告 */
+#under{
+  width: 1130px;
+  margin: 0 auto;
+}
+#under-imgs{
+  list-style:none;
+}
+#under-imgs>li{  
+  margin-top: 1rem;
+  width: 210px;
+  float: left;
+}
+#under-imgs img{
+ width: 210px;
+ height: 168px;
+ border-radius: 5px;
+}
+#under-imgs>li+li{
+  margin-left: 20px;
+}
+/* 下方菜单 */
+#menu{
+  width: 1130px;
+  height: 56px;
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#menu>li{
+  box-sizing: border-box;
+  margin-top: 2rem;
+  padding:0 30px;
+  width: 124px;
+  height: 56px;
+} 
+#menu>li>a{
+  text-align: center;
+  box-sizing: border-box;
+  color:#000;
+  text-decoration: none;
+  width: 64px;
+  height: 56px;
+  margin-top: 2rem;
+  border-bottom: 2px solid #000;
+}
+/* 首页页面 */
+#page-1{
+  clear: both;
+  background:#f7f7f7;
+  width: 100%;
+}
+.card-info-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 178px;
+  height: 18px;
+  font-size: 12px;
+  color:#bbb;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.card-info-item>span+span{
+  margin-left: 1rem;
+}
+/* 小眼睛,评论，赞小图标 */
+.statistics-view,
+.statistics-content,
+.statistics-zan::before{
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;  
+  background-size: 16px auto;
+  padding-left: 20px;
+  line-height: 16px;
+}
+.statistics-view{
+  background: url(../img/index-content/card-liulan.svg) 0 2px no-repeat;
+}
+.statistics-content{
+  background: url(../img/index-content/card-pinglun.svg) 0 2px no-repeat;
+}
+.statistics-zan{
+  background:url(../img/index-content/card-zan.svg) 0 0 no-repeat;
+  background-size: 16px 16px;
+}
+
+.card-items img{
+  width: 210px;
+  height: 158px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#page{
+  padding-top: 2rem;
+  margin: 20px  auto -20px;
+  width: 1130px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;   
+}
+/* card */
+.card-items{ 
+  background: #fff;
+  width: 210px;
+  height: 308px; 
+  margin-bottom: 1rem;
+}
+.card-info{
+  padding: 12px;
+  border-bottom: 1px solid #f7f7f7;
+}
+.card-info>a{
+  text-decoration: none;
+  font-size: 15px;
+  color:#000;
+}
+.card-info-title{
+  color:#bbb;
+  font-size:12px;
+}
+.card-item>a{
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  margin: 13px 0 0  -22px;
+}
+.card-item img{
+  margin-top: 8px;
+ width: 24px;
+ height: 24px;
+ border-radius: 50%;
+}
+.card-item{
+  display: flex;
+  justify-content: space-around;
+}
+.time{
+  font-size: 12px;
+  color:#bbb;
+  margin-top: 13px;
+}
+
+/* 分页按钮 */
+#Paging{
+  width: 1130px;
+  height: 40px;  
+  margin: 3rem auto;
+}
+#page-ul{
+ margin: 0 auto;
+ list-style: none;
+ display: flex;
+ justify-content: center;
+}
+#Paging>ul>li{
+  color: #bbb;
+  font-size: 15px;
+  text-align: center;
+  line-height: 40px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+}
+#Paging>ul>li+li{
+  margin-left: 15px;
+}
+#Paging>ul>li:hover{
+  background:  #ffe300;
+  color:#000
+}
+#Paging .active{
+  background:  #ffe300;
+  color:#000
+}
+/* under-img */
+#under-img{
+  margin-top: 2rem;
+  width: 1130px;
+  height: 100px;
+  margin: 2rem  auto;
+}
+#under-img img{
+   width: 1130px;
+   height: 100px;  
+   border-radius: 3px;
+}
+/* 推荐课程 */
+#course{
+  width: 1130px;
+  height: 194px;
+  margin: 0 auto;
+  color:#666;
+  font-size: 14px;
+  padding-bottom: 2rem;
+}
+.change{
+  color: #d36f16;
+  cursor: pointer;
+  margin-left: 63rem;
+}
+#course-img{
+  margin-top: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#course-img img{
+  width: 210px;
+  height: 118px;
+}
+.course-img-text{
+  box-sizing: border-box;
+  background: #fff;
+  font-size: 14px;
+  color:#000;
+  text-align: left;
+  padding: 10px;
+}
+.course-img-text:hover{
+  color:#d36f16
+}
+
