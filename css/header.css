@@ -107,3 +107,41 @@
 .juyou{
     justify-content: end;
 }
+/* 下拉菜单 */
+[data-trigger=dropdown]:hover>ul.dropdown-menu{
+    display: flex;
+}
+.dropdown-menu{
+    width: 630px;
+    height: 116px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+.dropdown-menu>li:hover{
+    background:#ffe300;
+    color: #000;
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+.dropdown-menu2{
+    width: 110px;
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+.dropdown-menu2>li:hover{
+    color: #000;
+    border-radius: 5px;
+    background:#ffe300;
+}
+[data-trigger=dropdown]:hover>ul.dropdown-menu2{
+    display: block;
+}
