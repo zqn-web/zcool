@@ -80,7 +80,7 @@
     vertical-align: middle;
 }
 /* 除了第一个子元素外，每个子元素添加的样式 */
-.nav-ul li+li{
+.nav-ul>li+li{
     margin-left: 10px;
 }
 /* nav中小红点 */
@@ -98,6 +98,7 @@
 .nav-ul>li:hover{
     background: #000;
     color: #ffe300;
+    z-index: 999;
 }
 .denglu1 a{
     text-decoration: none;
@@ -110,9 +111,10 @@
 /* 下拉菜单 */
 [data-trigger=dropdown]:hover>ul.dropdown-menu{
     display: flex;
+    z-index: 999;
 }
 .dropdown-menu{
-    width: 630px;
+    width: 600px;
     height: 116px;
     display: flex;
     flex-wrap: wrap;
@@ -124,11 +126,10 @@
 .dropdown-menu>li:hover{
     background:#ffe300;
     color: #000;
-    width: 90px;
-    height: 50px;
     border-radius: 5px;
     box-sizing: border-box;
     line-height: 50px;
+    z-index: 999;
 }
 .dropdown-menu2{
     width: 110px;
@@ -136,12 +137,20 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     display: none;
+    text-align: center;
 }
 .dropdown-menu2>li:hover{
     color: #000;
+    width: 100%;
     border-radius: 5px;
     background:#ffe300;
+    z-index: 999;
 }
 [data-trigger=dropdown]:hover>ul.dropdown-menu2{
     display: block;
+    z-index: 999;
+}
+.dropdown-menu a,.dropdown-menu2 a{
+    text-decoration: none;
+    color:#615d5d;
 }

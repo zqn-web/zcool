@@ -32,9 +32,6 @@ div>h1{
 }
 .my_p{font-size: 20px;}
 div>p{ margin-top: 1rem;}
-/*短信登录字色*/
-.d_text{
-    color: #999999;}
 .d_div{
      width:400px;height:500px;
      margin:0 auto;
@@ -68,7 +65,7 @@ div>p{ margin-top: 1rem;}
     display: table;
 }
 /*密码登录样式*/
-.m_d{padding-bottom: 1rem; }
+.m_d{padding-bottom: 1rem;margin-top: 3rem; }
 /*短信登录样式*/
 .d_d{margin-top: 3rem;margin-left: 2rem;}
 /*密码短信div样式*/
@@ -109,13 +106,59 @@ div>p{ margin-top: 1rem;}
 .chex_div{margin-left:2rem;text-align: left;font-size: 14px}
 .chex_img{margin-right: 5px;  }
 /*a去线*/
-.my_a{text-decoration: none;font-size: 13px;}
-
+.my_a{text-decoration: none;font-size: 13px;color: #999999;}
 .a_div{text-align: right;}
-#a1{margin-left: 10rem;}
+#a1{margin-left: 11rem;}
 .mb{margin-bottom:2rem;}
 .mb2{margin-bottom:1rem;}
 /* ul-hover */
 .ul-hover>li:hover{
     cursor: pointer;
 }
+/* 第三方账号登录 */
+.three{
+    text-align: center;
+}
+/* 密码登录 短信登录 */
+#tabs{
+    display: flex;
+}
+#tabs a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 15px;
+}
+/*+86样式*/
+.my_86{
+    box-sizing: border-box;
+    width: 70px;
+    height: 42px;
+    color:#999999;
+    line-height: 42px;
+}
+.my_title{text-align: center;}
+/*phone*/
+.phone{
+    margin:0 auto;
+    width: 336px;
+    height: 44px;
+    text-align: center;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: flex;
+}
+/*input样式*/
+.my_input_d{
+    outline: 0;
+    width: 264px;
+    height: 42px;
+    background: transparent;
+    border: 1px solid transparent;
+    margin-left: 1rem;
+    margin-top : 1px;
+    box-sizing: border-box;
+}
+#content2{
+    display: none;
+} 
