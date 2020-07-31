@@ -285,13 +285,12 @@
     width: 1130px;
     height: 300px;
     display: flex;
+    margin: 0 auto;
 }
 /* 下左 */
 .details-bottom-left{
     width: 260px;
-    height: 686px;
-   margin-left: 70px;
-  
+    height: 686px; 
 }
 .details-bottom-left-top{
     width: 260px;

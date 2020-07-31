@@ -1,6 +1,6 @@
  *{margin: 0;padding: 0}
 
- #dl{background: #fff;}
+ #dl{background: #fff;position: relative;}
  #p2{margin: 1rem;}
  #p3{margin-bottom: 5rem;}/*字体*/
 .my_text{
@@ -66,6 +66,7 @@ div>p{ margin-top: 1rem;}
 }
 /*密码登录样式*/
 .m_d{padding-bottom: 1rem;margin-top: 3rem; }
+.m_dactive{border-bottom: 1px solid #000;}
 /*短信登录样式*/
 .d_d{margin-top: 3rem;margin-left: 2rem;}
 /*密码短信div样式*/
@@ -122,6 +123,7 @@ div>p{ margin-top: 1rem;}
 /* 密码登录 短信登录 */
 #tabs{
     display: flex;
+    
 }
 #tabs a{
     text-decoration: none;
@@ -159,6 +161,32 @@ div>p{ margin-top: 1rem;}
     margin-top : 1px;
     box-sizing: border-box;
 }
-#content2{
-    display: none;
+#container{
+    height: 167px;
 } 
+/* content样式 */
+#content1,#content2{
+    width: 400px;
+    height: 155px;
+    background: #fff;
+    position: absolute;
+    top: 91px;
+	left: 0;
+}
+.my_btn::before{
+    content: "";
+    display: table ;
+    clear: both;
+}
+/* 短信 */
+.duanxin{
+    margin-top: 2rem;
+}
+.my_input_d:focus{
+    background: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+[data-click=tab]:hover{
+    border-bottom: 2px solid #000;
+}

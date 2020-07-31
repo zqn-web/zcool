@@ -21,7 +21,7 @@
 	</div>
 	<!-- 中间标题-->
 	<div class="my_m_text">
-		<a  href=""><img src="img/login/zcool_logo.svg" alt=""/></a>
+		<a  href="index.html" class="my_m_text" ><img src="img/login/zcool_logo.svg" alt=""/></a>
 		<p class="my_text my_p">登录站酷网，与1000万+ 名设计创意人一起交流设计、分享快乐吧！</p>
 	</div>
 	<!-- 登录页面-->
@@ -40,7 +40,7 @@
 					<input class="my_input" type="text" placeholder="手机号/邮箱"/><br/>
 					<input class="my_input" type="text" placeholder="密码"/><br/>
 				</div>
-				<div id="content2">
+				<div id="content2" class="duanxin">
 					<div class="phone ">
 						<span class="my_86 my_title ">+86 <img src="img/login/shixinjiantou.svg" alt=""/></span>
 						<input class="my_input_d " type="text" placeholder="手机号"/>
@@ -58,7 +58,7 @@
 		</div>
 		<div class="float mb">
 			<a class="my_a d_text " id="a1" href="">忘记密码 |</a>
-			<a class="my_a d_text" href="">注册</a>
+			<a class="my_a d_text" href="user_reg1.html">注册</a>
 		</div>
 		<!-- 第三方账号登录-->
 		<div class="three">
@@ -93,8 +93,6 @@ for(var tab of tabs){
     var tab=this;
     //先从当前tab的data-id属性中获得当前tab对应div的id
     var id=tab.getAttribute("data-id");
-        //或tab.dataset.id
-    //用id查找当前tab对应的div
     var div=document.getElementById(id);//不加""，因为id是前边一个变量
     //修改当前tab对应的div的zIndex为更大的一个数
     div.style.zIndex=index++;
